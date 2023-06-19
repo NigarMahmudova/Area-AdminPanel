@@ -16,6 +16,7 @@
     <tr>
       <th scope="col">#</th>
       <th scope="col">FullName</th>
+      <th scope="col">BookCount</th>
       <th scope="col">Action</th>
     </tr>
   </thead>
@@ -25,7 +26,8 @@
                         dataOrder++;
         <tr>
           <th scope="row">@dataOrder</th>
-            <td>@item.FullName</td>
+                <td>@item.FullName</td>
+                <td>@item.Books.Count</td>
             <td>
                 <a class="btn btn-warning" asp-action="edit" asp-route-id="@item.Id">Edit</a>
                 <a class="btn btn-danger">Delete</a>

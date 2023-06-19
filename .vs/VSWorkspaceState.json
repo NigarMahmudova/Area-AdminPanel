@@ -1,0 +1,13 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\PustokBookStore",
+    "\\PustokBookStore\\PustokBookStore",
+    "\\PustokBookStore\\PustokBookStore\\Areas",
+    "\\PustokBookStore\\PustokBookStore\\Areas\\Manage",
+    "\\PustokBookStore\\PustokBookStore\\Areas\\Manage\\Views",
+    "\\PustokBookStore\\PustokBookStore\\Areas\\Manage\\Views\\Slider"
+  ],
+  "SelectedNode": "\\PustokBookStore\\PustokBookStore\\Areas\\Manage\\Views\\Slider\\Index.cshtml",
+  "PreviewInSolutionExplorer": false
+}

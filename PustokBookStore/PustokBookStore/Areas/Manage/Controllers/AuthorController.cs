@@ -1,5 +1,6 @@
 ﻿using Humanizer.Localisation;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using PustokBookStore.DAL;
 using PustokBookStore.Entities;
 
@@ -15,7 +16,7 @@ namespace PustokBookStore.Areas.Manage.Controllers
         }
         public IActionResult Index()
         {
-            List<Author> model = _context.Authors.ToList();
+            List<Author> model = _context.Authors.Include(x=>x.Books).ToList();
             return View(model);
         }
 
@@ -60,12 +61,6 @@ namespace PustokBookStore.Areas.Manage.Controllers
         {
             if (!ModelState.IsValid)
             {
-                return View();
-            }
-
-            if (_context.Authors.Any(x => x.FullName == author.FullName))
-            {
-                ModelState.AddModelError("FullName", "FullName is already taken");
                 return View();
             }
 

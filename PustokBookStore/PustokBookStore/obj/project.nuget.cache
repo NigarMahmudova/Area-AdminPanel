@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TlDdDoYb2XUxbjL+vEntBzbNA+o0HFv2Tb3M5GynfNanL8SZjSZE7mjOqhbuI/ETOB6Dv62Zlh5FNTOcpQoJYA==",
+  "dgSpecHash": "AdV9qzecs2ewvsgoIhaHxNL1NZTfkcDzaKAs5B5tCuPy0APXVYYU0XIObHba/lYtnN3r0ld1LB1swZzGYI7QsA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User Widnows 10 Home\\Documents\\C#\\PustokBookStore\\PustokBookStore\\PustokBookStore.csproj",
+  "projectFilePath": "C:\\Users\\User Widnows 10 Home\\Documents\\C#\\Area-AdminPanel\\PustokBookStore\\PustokBookStore\\PustokBookStore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User Widnows 10 Home\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\User Widnows 10 Home\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

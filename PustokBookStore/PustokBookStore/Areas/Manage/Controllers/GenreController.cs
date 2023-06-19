@@ -62,13 +62,13 @@ namespace PustokBookStore.Areas.Manage.Controllers
                 return View();
             }
 
-            if (_context.Genres.Any(x => x.Name == genre.Name))
+            Genre existGenre = _context.Genres.FirstOrDefault(x => x.Id == genre.Id);
+
+            if (genre.Name != existGenre.Name && _context.Genres.Any(x => x.Name == genre.Name))
             {
                 ModelState.AddModelError("Name", "Name is already taken.");
                 return View();
             }
-
-            Genre existGenre = _context.Genres.FirstOrDefault(x=>x.Id==genre.Id);
 
             if(existGenre == null)
             {

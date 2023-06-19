@@ -10753,11 +10753,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User Widnows 10 Home\\Documents\\C#\\PustokBookStore\\PustokBookStore\\PustokBookStore.csproj",
+      "projectUniqueName": "C:\\Users\\User Widnows 10 Home\\Documents\\C#\\Area-AdminPanel\\PustokBookStore\\PustokBookStore\\PustokBookStore.csproj",
       "projectName": "PustokBookStore",
-      "projectPath": "C:\\Users\\User Widnows 10 Home\\Documents\\C#\\PustokBookStore\\PustokBookStore\\PustokBookStore.csproj",
+      "projectPath": "C:\\Users\\User Widnows 10 Home\\Documents\\C#\\Area-AdminPanel\\PustokBookStore\\PustokBookStore\\PustokBookStore.csproj",
       "packagesPath": "C:\\Users\\User Widnows 10 Home\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User Widnows 10 Home\\Documents\\C#\\PustokBookStore\\PustokBookStore\\obj\\",
+      "outputPath": "C:\\Users\\User Widnows 10 Home\\Documents\\C#\\Area-AdminPanel\\PustokBookStore\\PustokBookStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

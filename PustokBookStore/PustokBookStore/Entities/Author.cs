@@ -8,5 +8,6 @@ namespace PustokBookStore.Entities
         [Required]
         [MaxLength(50)]
         public string FullName { get; set; }
+        public List<Book> Books { get; set; }
     }
 }
