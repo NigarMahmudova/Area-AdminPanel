@@ -1,0 +1,41 @@
+﻿@model List<Genre>
+
+@{
+    int dataOrder = 0;
+}
+
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <h1>Genres</h1>
+            <a class="btn btn-primary" asp-controller="genre" asp-action="create">Create</a>
+        </div>
+        <div class="col-md-8">
+            <table class="table table-bordered">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Name</th>
+      <th scope="col">BookCount</th>
+      <th scope="col">Action</th>
+    </tr>
+  </thead>
+  <tbody>
+    @foreach(var item in Model)
+    {
+    dataOrder++;
+    <tr>
+      <th scope="row">@dataOrder</th>
+        <td>@item.Name</td>
+        <td>@item.Books.Count</td>
+        <td>
+            <a class="btn btn-warning" asp-action="edit" asp-route-id="@item.Id">Edit</a>
+            <a class="btn btn-danger">Delete</a>
+        </td>
+    </tr>
+    }
+  </tbody>
+</table>
+        </div>
+    </div>
+</div>
